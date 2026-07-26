@@ -7,7 +7,8 @@
 html,body{
     width:100%;
     height:100%;
-    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:auto;
 }
 
 body{
@@ -102,20 +103,10 @@ canvas{
     font-size:15px;
 }
 
-@media (max-width:768px){
-
-.footer{
-    position:static;
-    margin-top:40px;
-    text-align:center;
-}
 .message{
     width:90%;
     max-width:420px;
     margin:auto;
-}
-
-
 }
 
 @media (max-width: 768px){

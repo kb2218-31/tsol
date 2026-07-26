@@ -1,37 +1,95 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>The Stages of Life</title>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <meta name="description"
+        content="『今』という時間を見つめるためのデジタルアート作品『The Stages of Life』">
+
+    <meta name="theme-color" content="#101A33">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="language-switch">
-    <button id="lang-ja">JP</button>
-    <span>/</span>
-    <button id="lang-en">EN</button>
-</div>
-<div class="container">
 
-    <h1 id="title">The Stages of Life</h1>
-    <canvas id="clock"></canvas>
+    <!-- Language -->
+    <nav class="language-switch" aria-label="Language Switch">
+        <button id="lang-ja" type="button">JP</button>
+        <span>/</span>
+        <button id="lang-en" type="button">EN</button>
+    </nav>
 
-<div id="special-message"></div>
 
-<div class="message">
-    <p id="line1"></p>
-    <p id="line2"></p>
-</div>
+    <!-- Main -->
+    <main class="container">
 
-<script src="script.js"></script>
-</div>
+        <!-- Title -->
+        <header>
 
-<div class="footer">
-    <div>The Stages of Life</div>
-    <div>© 2026 KB2218-31</div>
-</div>
+            <h1 id="title">
+                The Stages of Life
+            </h1>
+
+        </header>
+
+
+        <!-- Clock -->
+        <section class="clock-section">
+
+            <canvas id="clock" aria-label="Analog Clock">
+                Your browser does not support HTML5 Canvas.
+            </canvas>
+
+        </section>
+
+
+        <!-- Special Message -->
+        <section
+            id="special-message"
+            class="special-message"
+            aria-live="polite">
+        </section>
+
+
+        <!-- Main Message -->
+        <section class="message">
+
+            <p id="line1"></p>
+
+            <p id="line2"></p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-title">
+            The Stages of Life
+        </div>
+
+        <div class="footer-copy">
+            © 2026 KB2218-31
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>

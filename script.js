@@ -14,6 +14,7 @@ document.getElementById("lang-en").onclick=()=>{
     setLanguage("en");
 };
 
+document.documentElement.lang=language;
 //message---------------------------------
 const events = {
   "00:00": {
