@@ -102,18 +102,35 @@ canvas{
     font-size:15px;
 }
 
+@media (max-width:768px){
+
+.footer{
+    position:static;
+    margin-top:40px;
+    text-align:center;
+}
+.message{
+    width:90%;
+    max-width:420px;
+    margin:auto;
+}
+
+
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 2.2rem;
+        letter-spacing: 6px;
+    }
+}
+
 @keyframes fadein{
-
     from{
-
         opacity:0;
-
     }
 
     to{
-
         opacity:1;
-
     }
-
 }
