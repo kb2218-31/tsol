@@ -54,8 +54,8 @@ const texts = {
         title:"The Stages of Life",
 
         message:[
-            "時間は、誰も待ってはくれない。過ぎ去った一秒は、もう戻らない。",
-            "この小さな時計が、誰かの「今」を大切にするきっかけになれば幸いです。"
+            "時間は、誰も待ってくれない。過ぎ去った一秒は、もう戻らない。",
+            "この時計が、誰かの「今」を大切にするきっかけになれはと思います。"
         ]
     },
 
@@ -63,8 +63,8 @@ const texts = {
         title:"The Stages of Life",
 
         message:[
-            "Time never waits for anyone. Every second that passes is gone forever.",
-            "If this small clock inspires even one person to cherish the present, then it has fulfilled its purpose."
+            "Time waits for no one. Once a second has passed, it never returns.",
+            "I hope this clock will inspire someone to cherish their ”now.”"
         ]
     }
 
