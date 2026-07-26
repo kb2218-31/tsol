@@ -36,9 +36,11 @@ body{
 }
 
 h1{
-    font-weight:200;
-    letter-spacing:8px;
-    margin-bottom:70px;
+    font-weight: 200;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    letter-spacing: clamp(2px, 0.8vw, 8px);
+    margin-bottom: 70px;
+    white-space: nowrap;
 }
 
 canvas{
@@ -111,8 +113,9 @@ canvas{
 
 @media (max-width: 768px){
     h1{
-        font-size: 2.2rem;
-        letter-spacing: 6px;
+        font-size: 1.6rem;
+        letter-spacing: 2px;
+        margin-bottom: 50px;
     }
 }
 
